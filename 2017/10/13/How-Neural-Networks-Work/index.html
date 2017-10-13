@@ -67,13 +67,23 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="博客名字我还没想好">
-<meta property="og:url" content="http://oniichan.net/index.html">
+<meta name="description" content="原文链接：https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7    作者：gk_ 神经网络是如何工作的 人工神经网络 Artificial neural networks (ANN)早已成为一个热门话题，聊天机器人也经常使用人工网络来进行文本识别。但老实说，除非你是一个神经科学家，使用大脑来类比神经网络不会让你懂得更多。软">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Neural Networks Work">
+<meta property="og:url" content="http://oniichan.net/2017/10/13/How-Neural-Networks-Work/index.html">
 <meta property="og:site_name" content="博客名字我还没想好">
+<meta property="og:description" content="原文链接：https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7    作者：gk_ 神经网络是如何工作的 人工神经网络 Artificial neural networks (ANN)早已成为一个热门话题，聊天机器人也经常使用人工网络来进行文本识别。但老实说，除非你是一个神经科学家，使用大脑来类比神经网络不会让你懂得更多。软">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*jdBlZ2jfNuyA-Wf65p5AFw.jpeg">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*CcQPggEbLgej32mVF2lalg.png">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*8SJcWjxz8j7YtY6K-DWxKw.png">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/600/1*sGo81thwUpgLrSOdr5SvtA.jpeg">
+<meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*1CEU_YPnHAws8NpDYY_ebw.jpeg">
+<meta property="og:updated_time" content="2017-10-13T08:15:06.778Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="博客名字我还没想好">
+<meta name="twitter:title" content="How Neural Networks Work">
+<meta name="twitter:description" content="原文链接：https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7    作者：gk_ 神经网络是如何工作的 人工神经网络 Artificial neural networks (ANN)早已成为一个热门话题，聊天机器人也经常使用人工网络来进行文本识别。但老实说，除非你是一个神经科学家，使用大脑来类比神经网络不会让你懂得更多。软">
+<meta name="twitter:image" content="https://cdn-images-1.medium.com/max/800/1*jdBlZ2jfNuyA-Wf65p5AFw.jpeg">
 
 
 
@@ -103,13 +113,13 @@
 
 
 
-  <link rel="canonical" href="http://oniichan.net/"/>
+  <link rel="canonical" href="http://oniichan.net/2017/10/13/How-Neural-Networks-Work/"/>
 
 
 
 
 
-  <title>博客名字我还没想好</title>
+  <title>How Neural Networks Work | 博客名字我还没想好</title>
   
 
 
@@ -137,8 +147,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -223,9 +232,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -255,9 +264,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/10/13/How-Neural-Networks-Work/" itemprop="url">How Neural Networks Work</a></h1>
+          <h1 class="post-title" itemprop="name headline">How Neural Networks Work</h1>
         
 
         <div class="post-meta">
@@ -329,9 +336,7 @@
       
 
       
-        
-          
-            <p> 原文链接：<a href="https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7" target="_blank" rel="external">https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7</a>  </p>
+        <p> 原文链接：<a href="https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7" target="_blank" rel="external">https://chatbotslife.com/how-neural-networks-work-ff4c7ad371f7</a>  </p>
 <p> 作者：<a href="https://chatbotslife.com/@gk_" target="_blank" rel="external">gk_</a></p>
 <h1 id="神经网络是如何工作的"><a href="#神经网络是如何工作的" class="headerlink" title="神经网络是如何工作的"></a>神经网络是如何工作的</h1><p> 人工神经网络 Artificial neural networks (ANN)早已成为一个热门话题，聊天机器人也经常使用人工网络来进行文本识别。但老实说，除非你是一个神经科学家，使用大脑来类比神经网络不会让你懂得更多。软件类似于动物大脑中的突触和神经元概念最近火了起来，但软件中的神经网络已经存在了数十年。</p>
 <p> 让我们用一个简单的比喻： 一个弦乐器。</p>
@@ -497,8 +502,6 @@ else:
 <p> 试一下这个例子中的代码。注意底部的输出显示了每个矩阵与每次迭代后的结果。</p>
 <p> <img src="https://cdn-images-1.medium.com/max/800/1*1CEU_YPnHAws8NpDYY_ebw.jpeg" alt="a 12-string harp guitar"></p>
 
-          
-        
       
     </div>
     
@@ -515,161 +518,28 @@ else:
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oniichan.net/2017/09/25/嗨，久等了。快点准备旅行吧。/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Pretty Dog">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博客名字我还没想好">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/25/嗨，久等了。快点准备旅行吧。/" itemprop="url">嗨，久等了。快点准备旅行吧。</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-25T23:24:06+09:00">
-                2017-09-25
-              </time>
+              <a href="/2017/09/25/嗨，久等了。快点准备旅行吧。/" rel="next" title="嗨，久等了。快点准备旅行吧。">
+                <i class="fa fa-chevron-left"></i> 嗨，久等了。快点准备旅行吧。
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Elona/" itemprop="url" rel="index">
-                    <span itemprop="name">Elona</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <center><a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=61349270" target="_blank" rel="external"><img src="http://owu8w8i05.bkt.clouddn.com/elona-pixiv_id61349270.jpg" alt="「待機少女」「はじけ魚の残骸」" title="「待機少女」「はじけ魚の残骸」"></a></center>
-
-<pre><code>“嗨，久等了。快点准备旅行吧。”。
-</code></pre>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/09/25/嗨，久等了。快点准备旅行吧。/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -679,10 +549,11 @@ else:
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -690,6 +561,10 @@ else:
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -710,8 +585,17 @@ else:
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -767,6 +651,22 @@ else:
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#神经网络是如何工作的"><span class="nav-number">1.</span> <span class="nav-text">神经网络是如何工作的</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#就像吉他调和弦"><span class="nav-number">1.1.</span> <span class="nav-text">就像吉他调和弦</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发生了什么"><span class="nav-number">1.2.</span> <span class="nav-text">发生了什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#深度学习"><span class="nav-number">1.3.</span> <span class="nav-text">深度学习</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
