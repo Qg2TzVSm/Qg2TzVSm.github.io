@@ -67,19 +67,17 @@
 
 
 
-<meta name="description" content="“嗨，久等了。快点准备旅行吧。”。">
+<meta name="description" content="准备工作 系统：Centos7.3 64位   df -h //查看系统磁盘空间情况  dh -sh //查看文件夹空间占用情况  scp -r d://…/Laravel root@111.22.333.44:/home  //上传文件到服务器中    下载laradock到项目目录内。   $ git clone https://github.com/Laradock/laradock.git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="嗨，久等了。快点准备旅行吧。">
-<meta property="og:url" content="http://oniichan.net/2017/09/25/嗨，久等了。快点准备旅行吧。/index.html">
+<meta property="og:title" content="Laradock环境搭建">
+<meta property="og:url" content="http://oniichan.net/2017/12/17/Laradock环境搭建/index.html">
 <meta property="og:site_name" content="博客名字我还没想好">
-<meta property="og:description" content="“嗨，久等了。快点准备旅行吧。”。">
+<meta property="og:description" content="准备工作 系统：Centos7.3 64位   df -h //查看系统磁盘空间情况  dh -sh //查看文件夹空间占用情况  scp -r d://…/Laravel root@111.22.333.44:/home  //上传文件到服务器中    下载laradock到项目目录内。   $ git clone https://github.com/Laradock/laradock.git">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://owu8w8i05.bkt.clouddn.com/elona-pixiv_id61349270.jpg">
-<meta property="og:updated_time" content="2017-09-27T08:36:36.617Z">
+<meta property="og:updated_time" content="2017-12-17T13:41:51.570Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="嗨，久等了。快点准备旅行吧。">
-<meta name="twitter:description" content="“嗨，久等了。快点准备旅行吧。”。">
-<meta name="twitter:image" content="http://owu8w8i05.bkt.clouddn.com/elona-pixiv_id61349270.jpg">
+<meta name="twitter:title" content="Laradock环境搭建">
+<meta name="twitter:description" content="准备工作 系统：Centos7.3 64位   df -h //查看系统磁盘空间情况  dh -sh //查看文件夹空间占用情况  scp -r d://…/Laravel root@111.22.333.44:/home  //上传文件到服务器中    下载laradock到项目目录内。   $ git clone https://github.com/Laradock/laradock.git">
 
 
 
@@ -109,13 +107,13 @@
 
 
 
-  <link rel="canonical" href="http://oniichan.net/2017/09/25/嗨，久等了。快点准备旅行吧。/"/>
+  <link rel="canonical" href="http://oniichan.net/2017/12/17/Laradock环境搭建/"/>
 
 
 
 
 
-  <title>嗨，久等了。快点准备旅行吧。 | 博客名字我还没想好</title>
+  <title>Laradock环境搭建 | 博客名字我还没想好</title>
   
 
 
@@ -243,7 +241,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oniichan.net/2017/09/25/嗨，久等了。快点准备旅行吧。/">
+    <link itemprop="mainEntityOfPage" href="http://oniichan.net/2017/12/17/Laradock环境搭建/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Pretty Dog">
@@ -260,7 +258,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">嗨，久等了。快点准备旅行吧。</h1>
+          <h1 class="post-title" itemprop="name headline">Laradock环境搭建</h1>
         
 
         <div class="post-meta">
@@ -272,8 +270,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-25T23:24:06+09:00">
-                2017-09-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-17T22:40:03+09:00">
+                2017-12-17
               </time>
             
 
@@ -295,8 +293,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Elona/" itemprop="url" rel="index">
-                    <span itemprop="name">Elona</span>
+                  <a href="/categories/Docker/" itemprop="url" rel="index">
+                    <span itemprop="name">Docker</span>
                   </a>
                 </span>
 
@@ -332,10 +330,71 @@
       
 
       
-         <center><a href="https://www.pixiv.net/member_illust.php?mode=medium&amp;illust_id=61349270" target="_blank" rel="external"><img src="http://owu8w8i05.bkt.clouddn.com/elona-pixiv_id61349270.jpg" alt="「待機少女」「はじけ魚の残骸」" title="「待機少女」「はじけ魚の残骸」"></a></center>
+        <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
+<li><p>系统：Centos7.3 64位</p>
+<p>  df -h //查看系统磁盘空间情况<br>  dh -sh //查看文件夹空间占用情况<br>  scp -r d://…/Laravel root@111.22.333.44:/home  //上传文件到服务器中  </p>
+</li>
+<li><p>下载laradock到项目目录内。</p>
+<p>  $ git clone <a href="https://github.com/Laradock/laradock.git" target="_blank" rel="external">https://github.com/Laradock/laradock.git</a></p>
+</li>
+</ol>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p> 照着官方文档，进入laradock目录后：</p>
+<pre><code>$ cp env-example .env
 
-<pre><code>“嗨，久等了。快点准备旅行吧。”。
+$ docker-compose up -d nginx mysql
 </code></pre> <a id="more"></a>
+<p> 安装Node和npm（或者Node+yarn）：</p>
+<p> 打开docker-compose.yml ,搜索 <code>INSTALL_NODE</code>，将其设置为 <code>true</code>。</p>
+<pre><code>workspace:
+        build:docker-compose down
+            context: ./workspace
+            args:
+                + INSTALL_NODE=true
+            // 安装yarn，还要设置INSTALL_YARN=true
+... 
+</code></pre><p> 然后重新编译容器：</p>
+<pre><code>$ docker-compose build workspace
+</code></pre><p> 最好再重启一下：</p>
+<pre><code>$ docker-compose down
+$ docker-compose up -d nginx mysql  
+</code></pre><h2 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h2><ol>
+<li><p>进入到项目目录中，修改 <code>.env</code>文件：</p>
+<p>  DB_HOST=mysql //其它数据库的用户名密码记得设置对</p>
+<p><a href="#create">创建数据库用户</a></p>
+</li>
+<li><p>修改cache文件夹权限：</p>
+<p>  $ sudo chmod -R 777 storage bootstrap/cache</p>
+</li>
+<li><p>进入workspace：</p>
+<p>  $ docker-compose exec workspace bash //默认以root用户进入，不推荐<br>  $ docker-compose exec –user=laradock workspace bash //推荐</p>
+</li>
+<li><p>执行：</p>
+<p>  $ npm install &amp;&amp; composer install</p>
+</li>
+</ol>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p> 现在访问 localhost ，应该能看到些东西了。</p>
+<h2 id="create">数据库</h2>
+
+<p> 进入数据库容器：</p>
+<pre><code>$ docker-compose exec mysql bash
+$ mysql -u root -p
+$ enter passwd:             //默认是root
+</code></pre><p>创建用户：</p>
+<pre><code>$ CREATE USER &apos;username&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;password&apos;;
+</code></pre><p>赋予权限：</p>
+<pre><code>$ GRANT ALL ON *.* TO &apos;username&apos;@&apos;localhost&apos;;
+</code></pre><h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><ul>
+<li><p>Undefined property: stdClass::$column_name when generating a model</p>
+<p>解决办法：</p>
+<pre><code>$ sudo vi /vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php
+</code></pre><p>找到 <code>select column_name from information_schema.columns</code></p>
+<p>修改为：</p>
+<pre><code>select column_name as `column_name` from information_schema.columns
+</code></pre><p>参考链接：  </p>
+<p><a href="https://github.com/laravel/framework/issues/20190" target="_blank" rel="external">1.https://github.com/laravel/framework/issues/20190</a>  </p>
+<p><a href="http://laradock.io/introduction/" target="_blank" rel="external">2.http://laradock.io/introduction/</a></p>
+</li>
+</ul>
 
       
     </div>
@@ -360,15 +419,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/10/25/Notadd-with-laradock/" rel="next" title="unrecognized import path "golang.org/x/sys/unix"">
+                <i class="fa fa-chevron-left"></i> unrecognized import path "golang.org/x/sys/unix"
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/10/13/How-Neural-Networks-Work/" rel="prev" title="How Neural Networks Work">
-                How Neural Networks Work <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -420,8 +479,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -477,6 +545,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置安装"><span class="nav-number">3.</span> <span class="nav-text">配置安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束"><span class="nav-number">4.</span> <span class="nav-text">结束</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#create"><span class="nav-number">5.</span> <span class="nav-text">数据库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#错误"><span class="nav-number">6.</span> <span class="nav-text">错误</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
